@@ -75,4 +75,21 @@ body{
         margin-bottom: 50px;
         display: block;
     }
+    .dinner_foods_first div{
+        margin-left: 35px;
+    }
+    
+    .dinner_foods img{
+        /* border-radius: 15px; */
+        width: 310px;
+        height: 200px;
+    }
+    .price_of_food{
+        /* text-align: right; */
+    margin-right: 15px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    /* color: white; */
+    }
+    
 }

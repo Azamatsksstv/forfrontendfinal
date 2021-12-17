@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 body{
     /* background-size: cover; */
     background-size: cover;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url("http://stlexpo.ru/uploadedFiles/images/PORTADA.jpg");
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url("https://wikicity.kz/fotos/Company_26930_p1pkTTVby2Cb136VJ84LGZm.jpeg");
 }
 
 .main_div{
@@ -15,8 +18,7 @@ body{
 
 .main_div h1{
     font-size: 62px;
-    font-family: 'Andada Pro', serif;
-font-family: 'Readex Pro', sans-serif;
+    font-family: 'Open Sans';
     /* font-family: Comic Sans MS, Comic Sans, cursive; */
 }
 .main_div h3{
@@ -26,15 +28,14 @@ font-family: 'Readex Pro', sans-serif;
 }
 
 .div_class_for_button_get_started{
-    font-family: 'Andada Pro', serif;
-font-family: 'Readex Pro', sans-serif;
+    font-family: 'Source Sans Pro';
     justify-content: center;
     display: flex;
 }
 
 .button_get_started{
-    font-family: 'Andada Pro', serif;
-font-family: 'Readex Pro', sans-serif;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
+    font-family: 'Source Sans Pro';
     /* font-family: sans-serif; */
     justify-content: center;
     display: flex;
@@ -44,9 +45,12 @@ font-family: 'Readex Pro', sans-serif;
     margin-top: 50px;
     width: 160px;
     height: 40px;
+    font-weight: bold;
 }
 
 .div_class_for_button_get_started :hover {
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    font-weight: bold;
     color: black;
     background-color: white;
     transition: 0.3s ease;

@@ -5,6 +5,12 @@ body{
 .video{
     justify-content: center;
     display: flex;
+    
+}
+
+.vvvideoo{
+    width: 750px;
+    height: 650px;
 }
 
 
@@ -17,53 +23,73 @@ body{
   }
 
 .first_of_grid{
-    background-image: url("grid3.jpg");
+    background-image: url("images/grid3.jpg");
     background-size:cover;
 }  
 
-.second_of_grid{
-    /* text-align: center; */
-    /* align-items: center; */
-    width: 400px;
-    padding-top: 50px;
-    padding-left: 70px;
+.about_grid .aaa{
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
-
+.aaa div{
+    width: 380px;
+    padding-bottom: 100px;
+}
 .third_of_grid{
-    background-image: url("grid2.jpg");
+    background-image: url("images/grid2.jpg");
     background-size:cover;
-}
-
-.fourth_of_grid{
-    width: 400px;
-    padding-top: 50px;
-    padding-left: 70px;
 }
 .fiveth_of_grid{
-    background-image: url("about_grid_photo1.jpg");
+    background-image: url("images/about_grid_photo1.jpg");
     background-size:cover;
 }
-
-.sixth_of_grid{
-    /* text-align: center; */
-    /* align-items: center; */
-    width: 400px;
-    padding-top: 50px;
-    padding-left: 70px;
-}
-
 .seventh_of_grid{
-    background-image: url("grid4.jpg");
+    background-image: url("images/grid4.jpg");
     background-size:cover;
 }
-
-.eighth_of_grid{
-    width: 400px;
-    padding-top: 50px;
-    padding-left: 70px;
-}
-
 .nineth_of_grid{
-    background-image: url("grid5.jpg");
+    background-image: url("images/grid5.jpg");
     background-size:cover;
+}
+
+@media (max-width: 768px) {
+    .about_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .vvvideoo{
+        width: 350px;
+        height: 300px;
+        margin-bottom: 200px;
+        /* padding-bottom: 1500px; */
+    }
+    .aaa div{
+        width: 280px;
+        padding-bottom: 0px;
+    }
+    .first_of_grid{
+        margin-left: 10px;
+        background-size: 350px;
+        background-repeat: no-repeat;
+    }  
+    .third_of_grid{
+        margin-left: 10px;
+        background-size: 350px;
+        background-repeat: no-repeat;
+    }
+    .fiveth_of_grid{
+        margin-left: 10px;
+        background-size: 350px;
+        background-repeat: no-repeat;
+    }
+    .seventh_of_grid{
+        margin-left: 10px;
+        background-size: 350px;
+        background-repeat: no-repeat;
+    }
+    .nineth_of_grid{
+        margin-left: 10px;
+        background-size: 350px;
+        background-repeat: no-repeat;
+    }
 }

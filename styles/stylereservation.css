@@ -1,0 +1,15 @@
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url("https://i.pinimg.com/564x/24/48/a0/2448a0ad4d19208426084421f93f7087.jpg");
+}
+
+.form-header{
+    color: white;
+}
+
+.inlineEditor{
+    color: white;
+}
+.form-control{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

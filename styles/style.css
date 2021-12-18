@@ -54,4 +54,10 @@ body{
     color: black;
     background-color: white;
     transition: 0.3s ease;
-   }
+}
+
+@media (max-width: 768px) {
+    .main_div h1{
+        font-size: 48px;
+    }
+}   

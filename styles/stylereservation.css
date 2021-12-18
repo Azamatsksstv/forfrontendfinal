@@ -1,15 +1,47 @@
 body{
     background-image:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url("https://i.pinimg.com/564x/24/48/a0/2448a0ad4d19208426084421f93f7087.jpg");
-}
-
-.form-header{
     color: white;
 }
 
-.inlineEditor{
-    color: white;
+.row{
+    display: block;
 }
-.form-control{
+.container{
+    width: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(44, 44, 44, 0.685);
+}
+.btn{
     margin-top: 20px;
-    margin-bottom: 20px;
+}
+.row div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mmain{
+    justify-content: center;
+    display: flex;
+}
+.foto{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* width: 500px; */
+    /* /* margin-top: 50px; */
+    margin-right: 150px; 
+    /* padding: 20px; */
+}
+@media (max-width: 768px) {
+    .mmain{
+        display: block;
+    }
+    .foto{
+        display: none;
+    }
+    .container{
+        margin-top: 10px;
+        width: 350px;
+    }
 }

@@ -1,87 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="styles/stylenavbar.css">
-        <link rel="stylesheet" href="styleabout.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,700&family=Readex+Pro:wght@500;700&display=swap" rel="stylesheet">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/stylenavbar.css">
+    <link rel="stylesheet" href="styleabout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,700&family=Readex+Pro:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
 <body>
-    <nav class="navbar">
-        <div class="logo"><img src="images/oyu1.svg" alt=""  width = "95" height = "60"></div>        <ul class="nav-links">
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-          <div class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index2.html">Menu</a></li>
-            <li><a href="index5.html">About</a></li>
-            <li class="services">
-              <a href="/">Pages</a>
-              <ul class="dropdown">
-                <li><a href="/">Dropdown 1 </a></li>
-                <li><a href="/">Dropdown 2</a></li>
-                <li><a href="/">Dropdown 3</a></li>
-                <li><a href="/">Dropdown 4</a></li>
-              </ul>
-            </li>
-            <li><a href="index3.html">Blog</a></li>
-            <li><a href="/">Contact</a></li>
-          </div>
-        </ul>
-    </nav>
-
-    
-        <div class="about_grid">
-            <div class="first_of_grid">
-                <!-- <img class="photo_blyuda" src="images/grid3.jpg" alt=""> -->
+    <main data-router-wrapper>
+        <section data-router-view="blog"> <nav class="navbar">
+            <div class="logo"><img src="images/oyu1.svg" alt=""  width = "85" height = "50"></div>        <ul class="nav-links">
+              <input type="checkbox" id="checkbox_toggle" />
+              <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+              <div class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index2.html">Menu</a></li>
+                <li><a href="index5.html">About</a></li>
+                <li class="services">
+                  <a href="index7.html">Career</a>
+                </li>
+                <li><a href="index3.html">Blog</a></li>
+                <li><a href="index8.html">Contact</a></li>
+              </div>
+            </ul>
+        </nav>
+    <div class="about_grid">
+        <div class="first_of_grid">
+            <!-- <img class="photo_blyuda" src="images/grid3.jpg" alt=""> -->
+        </div>
+        <div class="aaa">
+            <div>
+                <h1>Bukpa</h1>
+                "Bukpa" is a traditional meat dish for the elderly, prepared at a wedding. The peculiarity of the dish is stewed meat. As a result of this technological method, the attractiveness of the product and its biological value increases. Mashed potatoes with
+                pumpkin and demiglas sauce is a great addition to stews. If there are readers who have never tasted "Bukpa" - we recommend to book a table as soon as possible
             </div>
-            <div class="aaa">
-                <div>
-                    <h1>weioj</h1>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo explicabo officia doloremque obcaecati, quod, et, inventore delectus expedita eum minus a error sit nam impedit eius consequatur numquam animi rem culpa voluptatum eos. A ipsa provident mollitia quaerat iusto, quod dolorem quis itaque cumque velit non voluptates inventore dolor rem!
-                </div>     
+        </div>
+
+        <div class="third_of_grid">
+        </div>
+
+        <div class="aaa">
+            <div>
+                <h1>Mi pilaf</h1>
+                Dear guests, let's continue the section of acquaintance with the cuisine of our restaurant. Today's dish is "Mi pilaf". "Mi pilaf" is lamb cooked on a bruschetta made of hand worms. Delicious dish made of mutton. Brain fried in cream with black pepper
+                and salt, seasoned with houseworms. The combination of the two ingredients gives the food a special taste and makes it even healthier.
             </div>
-                
-            <div class="third_of_grid">
+        </div>
+
+        <div class="fiveth_of_grid"></div>
+
+        <div class="aaa">
+            <div>
+                <h1>Balausa belt</h1>
+                "Balausa belt" lamb with chopped bulgur wheat High-calorie dish made from small spines for dear guests from afar. The most tender and tender lamb with a little wheat bulgur mixture has a unique taste. Respect for the guest is shown by the fact that the
+                dish is prepared from the most nutritious and high-calorie parts of the spine.
             </div>
+        </div>
 
-            <div class="aaa">
-                <div>
-                    <h1>weioj</h1>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo explicabo officia doloremque obcaecati, quod, et, inventore delectus expedita eum minus a error sit nam impedit eius consequatur numquam animi rem culpa voluptatum eos. A ipsa provident mollitia quaerat iusto, quod dolorem quis itaque cumque velit non voluptates inventore dolor rem!
-                </div>     
+        <div class="seventh_of_grid"></div>
+
+        <div class="aaa">
+            <div>
+                <h1>Belkoterer</h1>
+                "Keep your back straight and your back straight". One of the dishes recommended for adults with this intention is "Belkoterer". "Belkoterer" is a traditional gift dish, which is made with the first stream of spring. A soft and high-calorie dish with the
+                taste of beef, potatoes and bitter chili sauce. This dish is mainly offered to the elderly as a sign of respect and care, "Keep your back straight and your back straight."
             </div>
+        </div>
 
-            <div class="fiveth_of_grid"></div>
+        <div class="nineth_of_grid"></div>
 
-            <div class="aaa">
-                <div>
-                    <h1>weioj</h1>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo explicabo officia doloremque obcaecati, quod, et, inventore delectus expedita eum minus a error sit nam impedit eius consequatur numquam animi rem culpa voluptatum eos. A ipsa provident mollitia quaerat iusto, quod dolorem quis itaque cumque velit non voluptates inventore dolor rem!
-                </div>     
-            </div>
-
-            <div class="seventh_of_grid"></div>    
-
-            <div class="aaa">
-                <div>
-                    <h1>weioj</h1>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo explicabo officia doloremque obcaecati, quod, et, inventore delectus expedita eum minus a error sit nam impedit eius consequatur numquam animi rem culpa voluptatum eos. A ipsa provident mollitia quaerat iusto, quod dolorem quis itaque cumque velit non voluptates inventore dolor rem!
-                </div>     
-            </div>
-            
-            <div class="nineth_of_grid"></div>        
-
-         </div>
-
-    <div class="video">
-        <video class="vvvideoo" autoplay loop muted src="video.mp4" ></video>
     </div>
 
+    <div class="video">
+        <video class="vvvideoo" autoplay loop muted src="video.mp4"></video>
+    </div>
+<h2>Mini video of our restaurant </h2> <br>
+</section>
+</main> 
 </body>
+
 </html>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 body{
     background-image:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url("https://i.pinimg.com/564x/24/48/a0/2448a0ad4d19208426084421f93f7087.jpg");
 }
@@ -7,13 +8,20 @@ body{
     display: flex;
     
 }
-
 .vvvideoo{
     width: 750px;
     height: 650px;
 }
-
-
+h2{
+    color:white;
+    text-align: center;
+    margin-top: -60px;
+    font-family: 'Ubuntu';
+}
+.aaa{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
 .about_grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -92,4 +100,14 @@ body{
         background-size: 350px;
         background-repeat: no-repeat;
     }
+    .footer{
+        display: none;
+      }
+}
+
+@font-face{
+    font-family: "Chambord"; 
+    src: url("fonts/Chambord.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
 }

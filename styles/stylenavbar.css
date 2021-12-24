@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +6,9 @@
  }
  a {
   font-family: 'Oswald';
-  font-size: 22px;
-  opacity: 80%;
+  font-size: 20px;
+  opacity: 88%;
+  
   text-decoration: none;
  }
  li {
@@ -25,13 +27,17 @@
  }
  /* LOGO */
  .logo {
-  font-size: 32px;
+  font-size: 28px;
+  margin-left: 10px;
+  padding-top: 6px;
+
  }
  /* NAVBAR MENU */
  .menu {
   display: flex;
   gap: 1em;
   font-size: 26px;
+  padding: 20px;
  }
  .menu li:hover {
   font-size: 28px;
@@ -79,6 +85,13 @@ input[type=checkbox]{
  font-size: 24px;
  user-select: none;
 }
+footer{
+  background: #111;
+  padding: 20px 23px;
+  color:#fff;
+  padding-left: 35%;
+  margin-bottom: -50px;
+}
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
 .menu { 
@@ -103,6 +116,7 @@ input[type=checkbox]:checked ~ .menu{
 }
 .hamburger {
  display: block;
+ margin-right: 20px;
 }
 .dropdown {
  left: 50%;
